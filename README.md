@@ -2,8 +2,9 @@
 Dit is de broncode voor de demo voor de serious game "IamKidz". Dit spel is ontwikkeld in opdracht van het bedrijf IamProgrez als afstudeeropdracht voor de opleiding Communication and Multimedia Design van de Hogeschool van Amsterdam
 ## Alternatieve Instructies draaien lokale versie IamKidz
 Instructies Draaien van lokale versie IamKidz
-1. Download de bestanden van www.alexandervandermije.nl/iamkidz/broncode/afstudeeropdrachtIamKidz.rar en pak de bestanden uit.
 
+
+1. Download de bestanden van www.alexandervandermije.nl/iamkidz/broncode/afstudeeropdrachtIamKidz.rar en pak de bestanden uit.
 2. U moet het programma Node.js geïnstalleerd hebben op uw computer. U
 kunt de laatste stabiele versie downloaden op https://nodejs.org/en/
 3. Hierna moet u uw command prompt openen. Op Windows is dit het
