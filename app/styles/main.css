@@ -1,0 +1,598 @@
+
+
+/* Fonts */
+
+@font-face
+{
+  font-family: 'Kidzone';
+  src: url('fonts/KIDZONE.TTF')  format('truetype');
+  font-weight:bold;
+}
+
+@font-face
+{
+  font-family: 'Funsized';
+  src: url('fonts/FUNSIZED.TTF') format('truetype');
+}
+
+.kidzoneFont
+{
+  font-family: 'Kidzone';
+}
+.funsizedFont
+{
+  font-family: 'Kidzone';
+  font-size: 52px;
+  color:red;
+  text-align:center;
+}
+.normalBackground
+{
+  width:1190px;
+  height: 842px;
+}
+.background1
+{
+  background-image: url('../images/backgroundWithCharacter1.png');
+}
+.background2
+{
+  background-image: url('../images/backgroundWithCharacter2.png');
+}
+.background3
+{
+  background-image: url('../images/backgroundWithCharacter.png');
+}
+.background4
+{
+  background-image: url('../images/backgroundWithCharacter4.png');
+}
+.background5
+{
+  background-image: url('../images/backgroundWithCharacter5.png');
+}
+.background6
+{
+  background-image: url('../images/backgroundWithCharacter6.png');
+}
+.background7
+{
+  background-image: url('../images/backgroundWithCharacter7.png');
+}
+.background8
+{
+  background-image: url('../images/backgroundWithCharacter8.png');
+}
+.background9
+{
+  background-image: url('../images/backgroundWithCharacter9.png');
+}
+.background10
+{
+  background-image: url('../images/backgroundWithCharacter10.png');
+}
+.background11
+{
+  background-image: url('../images/backgroundWithCharacter11.png');
+}
+.background12
+{
+  background-image: url('../images/backgroundWithCharacter12.png');
+}
+.background13
+{
+  background-image: url('../images/backgroundWithCharacter13.png');
+}
+.background14
+{
+  background-image: url('../images/backgroundWithCharacter14.png');
+}
+.background15
+{
+  background-image: url('../images/backgroundWithCharacter15.png');
+}
+
+
+
+/* StartScreen */
+#backgroundStartScreen
+{
+  background-image: url('../images/startscreen.png');
+  width:1190px;
+  height: 842px;
+  margin-left:-15px;
+}
+
+
+/* Karakter Scherm */
+#karakter1
+{
+  background-image: url('../images/karakter1.png');
+}
+#karakter2
+{
+  background-image: url('../images/karakter2.png');
+}
+#karakter3
+{
+  background-image: url('../images/karakter3.png');
+}
+#karakter4
+{
+  background-image: url('../images/karakter4.png');
+}
+#karakter5
+{
+  background-image: url('../images/karakter5.png');
+}
+#karakter6
+{
+  background-image: url('../images/karakter6.png');
+}
+#karakter7
+{
+  background-image: url('../images/karakter7.png');
+}
+#karakter8
+{
+  background-image: url('../images/karakter8.png');
+}
+#karakter9
+{
+  background-image: url('../images/karakter9.png');
+}
+#karakter10
+{
+  background-image: url('../images/karakter10.png');
+}
+#karakter11
+{
+  background-image: url('../images/karakter11.png');
+}
+#karakter12
+{
+  background-image: url('../images/karakter12.png');
+}
+#karakter13
+{
+  background-image: url('../images/karakter13.png');
+}
+#karakter14
+{
+  background-image: url('../images/karakter14.png');
+}
+#karakter15
+{
+  background-image: url('../images/karakter15.png');
+}
+#backgroundKarakterScreen
+{
+  background-image: url('../images/backgroundIamKidz.png');
+  width:1190px;
+  height: 842px;
+  margin-left:-15px;
+}
+.karakterImg
+{
+  margin-left:32px;
+  width:201px;
+  height:200px;
+  margin-right:0px;
+  display:inline-block;
+  margin-top:15px;
+}
+#karakterScreenText
+{
+  margin-top:-10px;
+}
+/* Doremi */
+
+#doremiPic
+{
+  display:block;
+  margin-left:auto;
+  margin-right:auto;
+  margin-top:1em;
+}
+#doremiContinue
+{
+  margin-top:3em;
+}
+
+/* flesjes */
+
+#flesjesBackground
+{
+  background-image: url('../images/flesjesBackground.png');
+  width: 1003px;
+  height:515px;
+  margin-left:10%;
+
+}
+#flesjes img:first-child
+{
+  margin-left:2.5%;
+}
+#flesjes img
+{
+  margin-top:3em;
+}
+#recordingDiv
+{
+  margin-top:1%;
+}
+.recButton
+{
+  margin-left:1%;
+}
+#flesjesContinue
+{
+  margin-top:1em;
+}
+
+/* Hoog Laag game */
+
+
+
+
+#gameNoteBox
+{
+  margin-right:150px;
+}
+.notePlay
+{
+  margin-left:290px;
+}
+#hoogLaagNotenbalk
+{
+  margin-top:2em;
+}
+/* Hoog-laag afsluiting */
+#starBorder
+{
+  border-style: solid;
+  border-width:0px 0px 8px 0px;
+  padding-bottom:30px;
+}
+#spel1AfsluitingActionText
+{
+  margin-top:0px;
+}
+#buttonsAfsluiting1
+{
+  margin-top:120px;
+  margin-left:-25px;
+}
+
+/* spel 2 */
+
+/* Uitleg 1 */
+
+#actionTextSpel2Uitleg1
+{
+  margin-top: 15px;
+}
+#spel2Uitleg1ContinueButton
+{
+  margin-top:130px;
+}
+/* Uitleg 2 */
+
+#actionTextSpel2Uitleg2
+{
+    margin-top: 15px;
+}
+
+/* Uitleg 3 */
+
+#actionTextSpel2Uitleg3
+{
+  margin-top: 50px;
+}
+#spel2Uitleg3Continue
+{
+  margin-top: 50px;
+}
+
+/*  Uitleg 4 */
+
+.uitleg4Klokken
+{
+  margin-top:30px;
+  margin-left:140px;
+}
+
+/*  Uitleg 4 - Grote klok */
+
+#actionTextSpel2Uitleg4GroteKlok
+{
+  margin-top:5px;
+}
+/* spel 2 - Game */
+#notenbalkBackground
+{
+  width:1152px;
+  height:262px;
+  margin-left:15px;
+  background-image: url("../images/emptyNotenbalk.png");
+  padding-left:65px;
+}
+.splitterNotenbalk
+{
+  margin-top: 35px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.stars
+{
+  margin-left:80px;
+  margin-top:25px;
+}
+.klokNotenbalk
+{
+  margin-top:25px;
+  margin-left:5px;
+}
+/* Spel 2 - NotenUitleg 1 */
+#klokkenNotenUitleg1
+{
+  margin-top:250px;
+}
+#notenUitleg1Continue
+{
+  margin-top:300px;
+}
+/* Spel 2 - Notenuitleg 2 */
+#notenUitleg2Noten
+{
+  margin-top:50px;
+  margin-bottom:50px;
+}
+.notenText
+{
+  margin-left:55px;
+}
+#notenUitleg2Continue
+{
+  margin-top:70px;
+}
+/* spel 2 - Game met noten */
+.gameNoten
+{
+  margin-left:90px;
+  margin-top:30px;
+  margin-bottom:20px;
+}
+.notenNotenbalk
+{
+  margin-top:30px;
+  margin-right:-20px;
+}
+/*spel 2 - Afsluiting */
+
+.afsluiting2Noot
+{
+  margin-top:10px;
+  margin-left:80px;
+}
+#buttonsAfsluiting2
+{
+  margin-top:10px;
+}
+
+/* eindscherm */
+
+#backgroundEindscherm
+{
+  background-image: url("../images/backgroundEindscherm2.png");
+  width:1195px;
+  height:643px;
+  margin-top:3px;
+}
+#starsGame1 img
+{
+  width:9.5%;
+  height:9.5%;
+  margin-top:75px;
+}
+#starsGame1 img:last-child
+{
+  width:240px;
+  height:85px;
+  margin-top:75px;
+}
+#starsGame1
+{
+  margin-left:520px;
+}
+#starsGame2 img
+{
+  width:9.5%;
+  height:9.5%;
+  margin-top:20px;
+}
+#starsGame2 img:last-child
+{
+  width:240px;
+  height:85px;
+  margin-top:20px;
+}
+#starsGame2
+{
+  margin-left:520px;
+}
+.popUpImage2 img
+{
+  margin-top:20px;
+  margin-bottom:20px;
+  margin-left:200px;
+  width:200px;
+  height:200px;
+}
+.popUpBox2
+{
+
+  height:400px;
+}
+.popUpButtons
+{
+  margin-top:20px;
+}
+#startGamePopUp
+{
+  border:0;
+  margin-left:150px;
+}
+
+
+/* popUp Boxen */
+.popUpBox
+{
+
+  height:350px;
+}
+.popUpText
+{
+  margin-top:20px;
+}
+.popUpImage img
+{
+  margin-top:20px;
+  margin-bottom:20px;
+  margin-left:200px;
+  width:200px;
+  height:200px;
+}
+/* Spel 1 */
+
+/* Goed  Gedaan */
+
+/*buttons */
+
+.continueButton
+{
+ display:block;
+  margin-left:auto;
+  margin-right:auto;
+
+}
+
+/*text */
+.mainTitle
+{
+  font-family: 'Funsized';
+  font-size:52px;
+  color:red;
+  text-align:center;
+}
+.normalText
+{
+  font-family: 'Kidzone';
+  font-size:32px;
+  text-align:center;
+}
+.normalTextBox
+{
+  margin-left:5%;
+}
+.actionText
+{
+  font-family: 'Kidzone';
+  font-size: 52px;
+  color:red;
+  text-align:center;
+  margin-top:-20px;
+}
+
+
+
+
+
+
+
+
+.browsehappy {
+  margin: 0.2em 0;
+  background: #ccc;
+  color: #000;
+  padding: 0.2em 0;
+}
+
+body {
+  padding: 0;
+}
+
+/* Everything but the jumbotron gets side spacing for mobile first views */
+.header,
+.marketing,
+.footer {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+/* Custom page header */
+.header {
+  border-bottom: 1px solid #e5e5e5;
+  margin-bottom: 10px;
+}
+/* Make the masthead heading the same height as the navigation */
+.header h3 {
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: 40px;
+  padding-bottom: 19px;
+}
+
+/* Custom page footer */
+.footer {
+  padding-top: 19px;
+  color: #777;
+  border-top: 1px solid #e5e5e5;
+}
+
+.container-narrow > hr {
+  margin: 30px 0;
+}
+
+/* Main marketing message and sign up button */
+.jumbotron {
+  text-align: center;
+  border-bottom: 1px solid #e5e5e5;
+}
+.jumbotron .btn {
+  font-size: 21px;
+  padding: 14px 24px;
+}
+
+/* Supporting marketing content */
+.marketing {
+  margin: 40px 0;
+}
+.marketing p + h4 {
+  margin-top: 28px;
+}
+
+/* Responsive: Portrait tablets and up */
+@media screen and (min-width: 768px) {
+  .container {
+    width: 1190px;
+    height:842px;
+  }
+
+  /* Remove the padding we set earlier */
+  .header,
+  .marketing,
+  .footer {
+    padding-left: 0;
+    padding-right: 0;
+  }
+  /* Space out the masthead */
+  .header {
+    margin-bottom: 30px;
+  }
+  /* Remove the bottom border on the jumbotron for visual effect */
+  .jumbotron {
+    border-bottom: 0;
+  }
+}

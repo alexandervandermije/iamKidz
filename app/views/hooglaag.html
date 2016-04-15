@@ -1,0 +1,77 @@
+<div>
+
+  <div class="row">
+    <div class="col-lg-12">
+      <h1 class="mainTitle"> Hoog en Laag </h1>
+      <div class="normalTextBox">
+        <p id="introText" class="normalText"></p>
+        <p id="actionTextFlesjes" class="actionText">{{round.description}}</p>
+      </div>
+      
+    </div>
+  </div>
+
+  <div ng-hide="hoogLaagGame = true" class="row">
+    <div class="col-lg-12">
+      <h1 ng-if="round.choose === 'highest'">Kies de hoogste noot</h1>
+      <h1 ng-if="round.choose === 'lowest'">Kies de laagste noot</h1>
+    </div>
+  </div>
+
+  
+
+  <div class="row">
+    <div ng-show="columnLeft == true" class="col-lg-3">
+    <img src="../images/uitlegHoogLaag.png"></div>
+    <div ng-show="columnLeft == false" class="col-lg-2"></div> 
+    
+
+    <div ng-repeat="tone in round.notes" class="col-lg-3">
+      <div id="noteBox" class="row">
+        <div class="col-lg-6">
+          <img src="../images/noteSelect.png" ng-click="checkTone(tone)">
+          <img src="../images/notePlay.png" ng-click="playTone(tone)">
+        </div>
+        <div class="col-lg-6">
+          
+        </div>
+      </div>
+
+    </div>
+
+  </div>
+
+  <div class="row">
+    <div class="col-lg-12">
+      <img id="hoogLaagNotenbalk" ng-src={{round.image}}>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-lg-2">
+    </div>
+    <div class="col-lg-8 stars">
+
+      <img ng-if="game1Star1Status == 'empty'" src="../images/starEmpty.png">
+      <img ng-if="game1Star1Status == 'half'" src="../images/starHalf.png">
+      <img ng-if="game1Star1Status == 'full'" src="../images/starFull.png">
+
+      <img ng-if="game1Star2Status == 'empty'" src="../images/starEmpty.png">
+      <img ng-if="game1Star2Status == 'half'" src="../images/starHalf.png">
+      <img ng-if="game1Star2Status == 'full'" src="../images/starFull.png">
+      
+      <img ng-if="game1Star3Status == 'empty'" src="../images/starEmpty.png">
+      <img ng-if="game1Star3Status == 'half'" src="../images/starHalf.png">
+      <img ng-if="game1Star3Status == 'full'" src="../images/starFull.png">
+
+      <img ng-if="game1Star4Status == 'empty'" src="../images/starEmpty.png">
+      <img ng-if="game1Star4Status == 'half'" src="../images/starHalf.png">
+      <img ng-if="game1Star4Status == 'full'" src="../images/starFull.png">  
+
+      <img ng-if="game1Star5Status == 'empty'" src="../images/starEmpty.png">
+      <img ng-if="game1Star5Status == 'half'" src="../images/starHalf.png">
+      <img ng-if="game1Star5Status == 'full'" src="../images/starFull.png">
+       
+    </div>
+  </div>
+
+</div>

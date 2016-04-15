@@ -1,0 +1,54 @@
+
+<div id="backgroundKarakterScreen">
+	<div class="row">
+    	<div class="col-lg-12">
+      		<h1 class="mainTitle"> Welkom !</h1>
+      		<p id="karakterScreenText" class="actionText"> Kies een poppetje uit om verder te gaan! </p>
+     	</div>
+    </div>
+
+	<div class="row">
+		<img ng-click="karakterKeuze(1)" class="karakterImg" src="../images/karakter1.png">
+		
+		<img ng-click="karakterKeuze(2)" class="karakterImg"src="../images/karakter2.png">
+		
+		<img ng-click="karakterKeuze(3)" class="karakterImg" src="../images/karakter3.png">
+		
+		<img ng-click="karakterKeuze(4)" class="karakterImg" src="../images/karakter4.png">
+		
+		<img ng-click="karakterKeuze(5)" class="karakterImg" src="../images/karakter5.png">
+	</div>
+	<div class="row">
+		<img ng-click="karakterKeuze(6)" ng-show="totalPoints > 3" class="karakterImg" src="../images/karakter6.png"> 
+		<img ng-show="totalPoints < 4"class="karakterImg" src="../images/karakter6Gray.png">
+		
+		<img ng-click="karakterKeuze(7)" ng-show="totalPoints > 3" class="karakterImg" src="../images/karakter7.png">
+		<img ng-show="totalPoints < 4" class="karakterImg"src="../images/karakter7Gray.png">
+		
+		<img ng-click="karakterKeuze(8)" ng-show="totalPoints > 5" class="karakterImg" src="../images/karakter8.png">
+		<img ng-show="totalPoints < 6" class="karakterImg" src="../images/karakter8Gray.png">
+		
+		<img ng-click="karakterKeuze(9)" ng-show="totalPoints > 5" class="karakterImg" src="../images/karakter9.png">
+		<img ng-show="totalPoints < 6" class="karakterImg" src="../images/karakter9Gray.png">
+		
+		<img ng-click="karakterKeuze(10)" ng-show="totalPoints > 5" class="karakterImg" src="../images/karakter10.png">
+		<img ng-show="totalPoints < 6" class="karakterImg" src="../images/karakter10Gray.png">
+	</div>
+	<div class="row">
+
+		<img ng-click="karakterKeuze(11)" ng-show="totalPoints > 7" class="karakterImg" src="../images/karakter11.png">
+		<img ng-show="totalPoints < 8" class="karakterImg" src="../images/karakter11Gray.png">
+		
+		<img ng-click="karakterKeuze(12)" ng-show="totalPoints > 7" class="karakterImg" src="../images/karakter12.png">
+		<img ng-show="totalPoints < 8" class="karakterImg"src="../images/karakter12Gray.png">
+		
+		<img ng-click="karakterKeuze(13)" ng-show="totalPoints > 9" class="karakterImg" src="../images/karakter13.png">
+		<img ng-show="totalPoints < 10" class="karakterImg" src="../images/karakter13Gray.png">
+		
+		<img ng-click="karakterKeuze(14)" ng-show="totalPoints > 9" class="karakterImg" src="../images/karakter14.png">
+		<img ng-show="totalPoints < 10" class="karakterImg" src="../images/karakter14Gray.png">
+		
+		<img ng-click="karakterKeuze(15)" ng-show="totalPoints > 9" class="karakterImg" src="../images/karakter15.png">
+		<img ng-show="totalPoints < 10" class="karakterImg" src="../images/karakter15Gray.png">
+	</div>
+</div>

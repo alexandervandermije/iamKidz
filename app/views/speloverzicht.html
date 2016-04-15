@@ -1,0 +1,60 @@
+<div class="row">
+	<h1 class="mainTitle"> Spel Overzicht </h1>
+	<div class="normalTextBox">
+		<p class="normalText">" Dit is het spel overzicht ! Klik op een van </p>
+		<p class="normalText"> de spelletjes om te beginnen! "</p>
+	</div>
+</div>
+<div class="row" id="backgroundEindscherm">
+	<div class="row">
+		<div class="col-lg-8 stars" id="starsGame1">
+		    
+		    <img ng-if="game1Star1Status == 'empty'" src="../images/starEmpty.png">
+		    <img ng-if="game1Star1Status == 'half'" src="../images/starHalf.png">
+		    <img ng-if="game1Star1Status == 'full'" src="../images/starFull.png">
+
+		    <img ng-if="game1Star2Status == 'empty'" src="../images/starEmpty.png">
+		    <img ng-if="game1Star2Status == 'half'" src="../images/starHalf.png">
+		    <img ng-if="game1Star2Status == 'full'" src="../images/starFull.png">
+		      
+		    <img ng-if="game1Star3Status == 'empty'" src="../images/starEmpty.png">
+		    <img ng-if="game1Star3Status == 'half'" src="../images/starHalf.png">
+		    <img ng-if="game1Star3Status == 'full'" src="../images/starFull.png">
+
+		    <img ng-if="game1Star4Status == 'empty'" src="../images/starEmpty.png">
+		    <img ng-if="game1Star4Status == 'half'" src="../images/starHalf.png">
+		    <img ng-if="game1Star4Status == 'full'" src="../images/starFull.png">  
+
+		    <img ng-if="game1Star5Status == 'empty'" src="../images/starEmpty.png">
+		    <img ng-if="game1Star5Status == 'half'" src="../images/starHalf.png">
+		    <img ng-if="game1Star5Status == 'full'" src="../images/starFull.png">
+       		
+       		<img ng-click="startGame1()" id="playGame1Button" src="../images/startGameButton.png">
+		</div>
+	</div>
+	<div class="row">
+		<div id="starsGame2" class="col-lg-8 stars">
+			<img ng-if="game2Star1Status == 'empty'" src="../images/starEmpty.png">
+		    <img ng-if="game2Star1Status == 'half'" src="../images/starHalf.png">
+		    <img ng-if="game2Star1Status == 'full'" src="../images/starFull.png">
+
+		    <img ng-if="game2Star2Status == 'empty'" src="../images/starEmpty.png">
+		    <img ng-if="game2Star2Status == 'half'" src="../images/starHalf.png">
+		    <img ng-if="game2Star2Status == 'full'" src="../images/starFull.png">
+		      
+		    <img ng-if="game2Star3Status == 'empty'" src="../images/starEmpty.png">
+		    <img ng-if="game2Star3Status == 'half'" src="../images/starHalf.png">
+		    <img ng-if="game2Star3Status == 'full'" src="../images/starFull.png">
+
+		     <img ng-if="game2Star4Status == 'empty'" src="../images/starEmpty.png">
+		     <img ng-if="game2Star4Status == 'half'" src="../images/starHalf.png">
+		     <img ng-if="game2Star4Status == 'full'" src="../images/starFull.png">  
+
+		     <img ng-if="game2Star5Status == 'empty'" src="../images/starEmpty.png">
+		     <img ng-if="game2Star5Status == 'half'" src="../images/starHalf.png">
+		     <img ng-if="game2Star5Status == 'full'" src="../images/starFull.png">
+		     
+		     <img ng-show='spel1Played == true'ng-click="startGame2()" id="playGame2Button" src="../images/startGameButton.png">
+    </div>
+
+</div>
