@@ -1,4 +1,4 @@
-# IamKids
+# IamKidz
 Dit is de broncode voor de demo voor de serious game "IamKidz". Dit spel is ontwikkeld in opdracht van het bedrijf IamProgrez als afstudeeropdracht voor de opleiding Communication and Multimedia Design van de Hogeschool van Amsterdam. Deze demo kunt u op www.alexandervandermije.nl/iamKidz/demo online spelen. 
 
 
